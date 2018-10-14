@@ -4,6 +4,7 @@ import android.support.test.runner.AndroidJUnit4;
 import android.test.AndroidTestCase;
 import android.util.Log;
 
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
 @RunWith(AndroidJUnit4.class)
@@ -11,7 +12,7 @@ public class EndPointAsyncTaskTest extends AndroidTestCase {
 
     private static final String LOG_TAG = "NonEmptyStringTest";
 
-    @SuppressWarnings("unchecked")
+    @Test
     public void test() {
         Log.v("NonEmptyStringTest", "Running NonEmptyStringTest test");
         String result = null;
